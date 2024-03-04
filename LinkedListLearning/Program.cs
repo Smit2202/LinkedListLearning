@@ -22,10 +22,9 @@ namespace LinkeListLearning
                 switch (UserInputModule)
                 {
                     case "show":
+                        // 
                         LinkeListLearningnew linkeListLearningnewobj = new LinkeListLearningnew();
-                        linkeListLearningnewobj.Display(Sentence);
-
-                        Console.WriteLine(Sentence.FindLast("the"));
+                        linkeListLearningnewobj.Display(Sentence);                                                
                         break;
                     case "aeb":
                         // Add Word Beginning of LinkedList
